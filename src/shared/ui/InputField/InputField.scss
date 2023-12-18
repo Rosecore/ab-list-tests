@@ -1,0 +1,26 @@
+.input-wrapper {
+    width: 100%;
+    height: 45px;
+    border: 1px solid #EBEBEB;
+    border-radius: 20px;
+    justify-content: start;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: #fff;
+    color: var(--font-secondary-color);
+}
+
+.default-input {
+    margin-left: 10px;
+    width: 93%;
+    border: none;
+    background-color: transparent;
+    font: var(--font-s);
+    text-align: left;
+
+    &:focus {
+        outline: none;
+        border: none;
+    }
+}

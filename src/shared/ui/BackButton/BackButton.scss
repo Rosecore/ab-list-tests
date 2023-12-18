@@ -1,0 +1,13 @@
+.back-button {
+    position: relative;
+    top: 80%;
+    font: var(--font-l);
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.5s;
+    cursor: pointer;
+    .chevron{
+        margin-right: 15px;
+    }
+}

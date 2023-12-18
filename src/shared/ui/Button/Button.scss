@@ -1,0 +1,30 @@
+.default-button {
+    height: 30px;
+    width: 95px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font: var(--font-m);
+    cursor: pointer;
+
+}
+
+.active {
+    background-color: var(--button-active-color);
+}
+
+.unactive {
+    background-color: var(--button-unactive-color);
+}
+.default-button-hovered{
+    height: 30px;
+    width: 95px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font: var(--font-m);
+    cursor: pointer;
+    margin-bottom: 5px;
+}
